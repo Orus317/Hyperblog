@@ -13,8 +13,11 @@ header {
     width: 100vw;
     height: 10vh;
     background-color: rgb(46, 143, 143);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-radius: 0 0 10px 10px;
+    box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);
+    -webkit-box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);
+    -moz-box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);;
 }
 
 header ul {
