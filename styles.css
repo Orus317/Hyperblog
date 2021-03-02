@@ -17,7 +17,19 @@ header {
     border-radius: 0 0 10px 10px;
     box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);
     -webkit-box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);
-    -moz-box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);;
+    -moz-box-shadow: -2px 15px 54px -16px rgba(0,227,255,1);
+    display: flex;
+}
+
+figure {
+    /* position: absolute; */
+    display: inline;
+    height: 10vh;
+    width: auto;
+}
+
+figure img {
+    height: 10vh;
 }
 
 header ul {
@@ -26,6 +38,7 @@ header ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 90vw;
 }
 header ul li {
     font-size: 2rem;
