@@ -54,8 +54,5 @@ main p {
     background-color: rgb(193, 219, 241);
     padding: 20px;
     border-radius: 10px;
-}
-
-main p:nth-child(2) {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
